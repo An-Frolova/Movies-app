@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="image_of_poster">Image of poster</string>
+    <string name="image_to_play">to play</string>
+    <string name="image_of_star_content_description">Image of star for save the movie</string>
+    <string name="item_favorite">Избранное</string>
+</resources>

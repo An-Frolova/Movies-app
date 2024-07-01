@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@android:color/holo_orange_dark"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewTrailerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="Трейлер" />
+
+        <ImageView
+            android:id="@+id/imageViewPlay"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:contentDescription="@string/image_to_play"
+            android:layout_marginEnd="8dp"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
